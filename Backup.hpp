@@ -16,7 +16,6 @@ public:
 	std::string get_files();
 private:
 	std::vector<std::string> m_files;
-	std::string m_last_backup;
 	std::string m_backup;
 	size_t m_worlds = 0, m_players = 0;
 };
